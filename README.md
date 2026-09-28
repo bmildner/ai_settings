@@ -25,7 +25,7 @@ the file in this repo are the same file:
 REPO=/path/to/this/repo/claude_code
 CLAUDE=~/.claude
 
-ln -sf "$REPO/statusline.sh"             "$CLAUDE/statusline.sh"
+ln -sf "$REPO/statusline.sh"            "$CLAUDE/statusline.sh"
 ln -sf "$REPO/keybindings.json"         "$CLAUDE/keybindings.json"
 ln -sf "$REPO/CLAUDE.md"                "$CLAUDE/CLAUDE.md"
 ln -sf "$REPO/agents"                   "$CLAUDE/agents"
